@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Divyesh KHokhar | Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+      color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      animation: slideUp 0.8s ease-in-out;
+    }
+
+    .notice {
+      background-color: #e0f7fa;
+      color: #006064;
+      border: 1px solid #4dd0e1;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 30px;
+      animation: fadeIn 1s ease-in;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #0d47a1;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    section {
+      margin-bottom: 40px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeSlide 1s ease forwards;
+    }
+
+    section:nth-of-type(2) { animation-delay: 0.4s; }
+    section:nth-of-type(3) { animation-delay: 0.6s; }
+    section:nth-of-type(4) { animation-delay: 0.8s; }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #0d47a1;
+    }
+
+    ul {
+      list-style: square inside;
+      padding-left: 10px;
+    }
+
+    li {
+      margin: 6px 0;
+    }
+
+    .contact p a {
+      color: #0d47a1;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .contact p a:hover {
+      color: #1976d2;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      margin-top: 40px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes fadeSlide {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="notice">
+      🚧 Portfolio website is currently under construction.<br>
+      A polished version is coming very soon — stay tuned!
+    </div>
+
+    <header>
+      <h1>Divyesh KHokhar</h1>
+      <p>DevOps Engineer & Software Developer @ IBM</p>
+    </header>
+
+    <section class="intro">
+      <h2>About Me</h2>
+      <p>
+        I'm a DevOps enthusiast and software developer passionate about automation, scalable systems,
+        and clean, efficient code. Currently contributing to projects at IBM, I love building tools that make
+        development smoother and faster.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>CI/CD Pipelines, GitHub Actions, Docker</li>
+        <li>Python, JavaScript, Shell Scripting</li>
+        <li>React.js, Node.js, MongoDB</li>
+        <li>Object-Oriented Programming, DBMS, Data Structure and Algorithm</li>
+        <li>RESTful APIs, Performance Optimization</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <p>This section is being updated. Thank you for your patience.</p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Phone: <a href="tel:+918866649459">+91 88666 49459</a></p>
+      <p>Email: <a href="divyeshkhokhar2511@gmail.com">divyeshkhokhar2511@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/divyesh-khokhar-9a9711212/" target="_blank">linkedin.com/in/divyesh-khokhar</a></p>
+    </section>
+
+    <footer>
+      Last updated: April 2025
+    </footer>
+  </div>
+</body>
+</html>
+
